@@ -19,16 +19,7 @@ return {
                     }
                 },
                 file_ignore_patterns = {
-                    -- Node
-                    "node_modules",
-
-                    -- C#
-                    "bin",
-                    "obj",
-
-                    -- Unity
-                    "Library",
-                    "Temp",
+                    ".git"
                 }
             }
         })
