@@ -1,9 +1,16 @@
 OMNISHARP_ASSET=omnisharp-osx-arm64-net6.0.zip
+NPM_INSTALL=pnpm i -g
+BREW_INSTALL=brew install
 
-all: install-omnisharp | symlink
+all: install-language-servers | symlink
 
 symlink:
 	stow . -t ~
+
+install-language-servers: install-omnisharp
+	$(NPM_INSTALL) typescript svelte-language-server typescript-language-server @tailwindcss/language-server
+	$(BREW_INSTALL) lua-language-server
+	go install golang.org/x/tools/gopls@latest
 
 install-omnisharp:
 	@echo "Fetching latest OmniSharp release information..."
