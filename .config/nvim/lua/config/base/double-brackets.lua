@@ -1,0 +1,6 @@
+vim.api.nvim_set_keymap('i', '"', '""<left>', { noremap = true })
+vim.api.nvim_set_keymap('i', "'", "''<left>", { noremap = true })
+vim.api.nvim_set_keymap('i', '(', '()<left>', { noremap = true })
+vim.api.nvim_set_keymap('i', '[', '[]<left>', { noremap = true })
+vim.api.nvim_set_keymap('i', '{', '{}<left>', { noremap = true })
+vim.api.nvim_set_keymap('i', '<', '<><left>', { noremap = true })

@@ -1,0 +1,22 @@
+theme = Terminal.app iTerm
+
+font-size = 18
+font-family = SF Mono
+font-style = Bold
+font-style-bold = Heavy
+font-style-italic = Bold Italic
+font-style-bold-italic = Heavy Italic
+
+cursor-style = block
+cursor-style-blink = false
+shell-integration-features = no-cursor
+
+window-step-resize = true
+window-width = 115
+window-height = 35
+window-padding-x = 5
+window-padding-y = 5
+
+bold-is-bright = true
+
+macos-option-as-alt = left
