@@ -8,7 +8,8 @@ return {
                 'lua_ls',
                 'ts_ls',
                 'svelte',
-                'tailwindcss'
+                'tailwindcss',
+                'rust_analyzer',
             })
 
             lsp.gopls.setup({

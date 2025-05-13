@@ -11,6 +11,7 @@ install-language-servers: install-omnisharp
 	$(NPM_INSTALL) typescript svelte-language-server typescript-language-server @tailwindcss/language-server
 	$(BREW_INSTALL) lua-language-server
 	go install golang.org/x/tools/gopls@latest
+	rustup component add rust-analyzer
 
 install-omnisharp:
 	@echo "Fetching latest OmniSharp release information..."
