@@ -5,6 +5,7 @@ My macOS configuration files.
 ## Dependencies
 
 -   [SF Mono](https://developer.apple.com/fonts/) Nerd-patched font
+    -   _[Ghostty](https://ghostty.org/) may require both patched and unpatched versions to be installed_
 -   [Neofetch](https://github.com/dylanaraps/neofetch)
 -   [Ghostty](https://ghostty.org/)
 -   [Neovim](https://neovim.io/)
