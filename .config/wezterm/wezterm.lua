@@ -36,6 +36,14 @@ config.colors = {
 
     selection_bg = '#bbd6fc',
     selection_fg = '#000000',
+
+    tab_bar = {
+        active_tab = {
+            bg_color = '#171717',
+            fg_color = '#e6e6e6',
+            intensity = 'Bold',
+        }
+    },
 }
 
 -- font
