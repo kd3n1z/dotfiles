@@ -1,0 +1,9 @@
+ZSH_THEME="robbyrussell"
+zstyle ':omz:update' mode disabled
+
+plugins=(git git-open)
+
+export EDITOR="nvim"
+alias vim="nvim"
+
+alias docs="cd ~/Documents"
