@@ -10,6 +10,7 @@ return {
                 'svelte',
                 'tailwindcss',
                 'rust_analyzer',
+                'sourcekit',
             })
 
             lsp.gopls.setup({
