@@ -22,3 +22,5 @@ bold-is-bright = true
 macos-option-as-alt = left
 
 term = xterm-256color
+
+keybind = cmd+.=esc:.
