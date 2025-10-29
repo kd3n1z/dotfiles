@@ -7,3 +7,5 @@ export EDITOR="nvim"
 alias vim="nvim"
 
 alias docs="cd ~/Documents"
+
+export XDG_CONFIG_HOME="$HOME/.config"
