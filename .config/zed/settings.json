@@ -1,0 +1,88 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "show_edit_predictions": false,
+  "edit_predictions": {
+    "provider": "ollama"
+  },
+  "agent": {
+    "dock": "left",
+    "default_profile": "write",
+    "default_model": {
+      "provider": "ollama",
+      "model": "qwen3.8:27b-mlx",
+      "enable_thinking": true,
+    },
+    "favorite_models": [],
+    "model_parameters": [],
+    "commit_message_model": {
+      "provider": "ollama",
+      "model": "llama3.2"
+    },
+    "commit_message_instructions": "Write a single-line git commit message. ALLOWED TYPES ONLY: feat, fix, chore, refactor, style. FORMAT: <type>(<scope>): <description>. CRITICAL RULES: 1. Output EXACTLY ONE line (no body, no explanations). 2. Output RAW TEXT ONLY (no markdown code blocks, no backticks). 3. Describe only exact diff changes, no hallucinations."
+  },
+  "tab_size": 4,
+  "indent_guides": {
+    "enabled": true
+  },
+  "hard_tabs": false,
+  "cli_default_open_behavior": "existing_window",
+  "terminal": {
+    "dock": "bottom"
+  },
+  "diff_view_style": "split",
+  "status_bar": {
+    "active_language_button": true
+  },
+  "buffer_font_family": ".ZedMono",
+  "calls": {
+    "mute_on_join": false
+  },
+  "proxy": "",
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "git_panel": {
+    "tree_view": true,
+    "dock": "right"
+  },
+  "vim": {
+    "use_system_clipboard": "never",
+    "use_smartcase_find": true,
+    "toggle_relative_line_numbers": true
+  },
+  "relative_line_numbers": "disabled",
+  "disable_ai": false,
+  "diagnostics": {
+    "inline": {
+      "enabled": true
+    }
+  },
+  "format_on_save": "off",
+  "project_panel": {
+    "dock": "right"
+  },
+  "icon_theme": {
+    "mode": "system",
+    "light": "Zed (Default)",
+    "dark": "Zed (Default)"
+  },
+  "session": {
+    "trust_all_worktrees": true
+  },
+  "vim_mode": true,
+  "ui_font_size": 16,
+  "buffer_font_size": 15.0,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "VSCode Dark Modern",
+  },
+}
