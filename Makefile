@@ -7,12 +7,13 @@ all: install-language-servers | symlink
 symlink:
 	stow . -t ~
 
-install-language-servers: install-omnisharp
-	$(NPM_INSTALL) typescript svelte-language-server typescript-language-server @tailwindcss/language-server
+install-language-servers:
+	$(NPM_INSTALL) typescript svelte-language-server typescript-language-server @tailwindcss/language-server vscode-langservers-extracted
 	$(BREW_INSTALL) lua-language-server
 	go install golang.org/x/tools/gopls@latest
 	rustup component add rust-analyzer
 
+# temporarily broken
 install-omnisharp:
 	@echo "Fetching latest OmniSharp release information..."
 	@RELEASE_JSON=$$(curl -s https://api.github.com/repos/OmniSharp/omnisharp-roslyn/releases/latest); \

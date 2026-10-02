@@ -8,3 +8,4 @@ vim.keymap.set("n", "<MS-f>", vim.lsp.buf.format)
 
 -- files
 vim.keymap.set('n', '<F1>', function() telescope.find_files({ hidden = true }) end)
+vim.keymap.set('n', '<C-b>', function() vim.cmd("NvimTreeToggle") end)

@@ -1,5 +1,6 @@
 require("config/lazy")
 
+require("config/base/number")
 require("config/base/search")
 require("config/base/tabs")
 require("config/base/diagnostics")
